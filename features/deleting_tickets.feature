@@ -7,10 +7,10 @@ Feature: Deleting tickets
     Given there is a project called "TextMate 2"
     And that project has a ticket:
       | title | description |
-      | Make it shiny! | Gradients! Starbursts! Oh my! |
+      | Make it Shiny! | Gradients! Starbursts! Oh my! |
     Given I am on the homepage
     When I follow "TextMate 2"
-    And I follow "Make it Shiney!"
+    And I follow "Make it Shiny!"
 
     Scenario: Deleting a ticket
       When I follow "Delete Ticket"

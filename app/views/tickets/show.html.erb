@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <body>
+<nav>
+  <%= link_to "Sign up", new_user_registration_path %>
+</nav>
 <div id='ticket'>
   <h2><%= @ticket.title %></h2>
   <%= simple_format(@ticket.description) %>
