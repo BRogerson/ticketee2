@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <body>
+    <%= admins_only do %>
         <%= link_to "New Project", new_project_path %>
-
-        <h2>Projects</h2>
+    <% end %>
+    <h2>Projects</h2>
         <ul>
           <% @projects.each do |project| %>
               <li><%= link_to project.name, project %></li>
