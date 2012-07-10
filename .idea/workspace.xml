@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ca5dc0-92c9-4d7c-abe5-4ec2182e4969" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/users/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/users/show.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/editing_users.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/deleting_users.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/users/show.html.erb" />
     </list>
     <ignored path="ticketee2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,37 +31,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="creating_users.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/creating_users.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="66" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/admin/base_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="54" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="users_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="45" selection-start="581" selection-end="581" vertical-scroll-proportion="0.14485165">
+            <state line="50" column="6" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.6936027">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/users/edit.html.erb">
+      <file leaf-file-name="deleting_users.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/deleting_users.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="69" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+            <state line="20" column="52" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,52 +52,16 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="50" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+            <state line="3" column="40" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/users/new.html.erb">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/users/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="82" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editing_users.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/editing_users.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="60" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/users/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="47" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.652174">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="144" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+            <state line="41" column="43" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/admin/users_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/base_controller.rb" />
@@ -148,8 +92,9 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/users/_form.html.erb" />
         <option value="$PROJECT_DIR$/features/support/editing_users.feature" />
-        <option value="$PROJECT_DIR$/app/views/admin/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/users/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/admin/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/features/deleting_users.feature" />
         <option value="$PROJECT_DIR$/app/controllers/admin/users_controller.rb" />
       </list>
     </option>
@@ -300,46 +245,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -627,6 +532,24 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="false">$USER_HOME$/.subversion_IDEA</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="68ca5dc0-92c9-4d7c-abe5-4ec2182e4969" name="Default" comment="" />
@@ -664,7 +587,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1631068" sideWeight="0.67258066" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21035598" sideWeight="0.67258066" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19381842" sideWeight="0.21829855" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -734,86 +657,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/support/seed_helpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/hidden_links.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="89" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="66" selection-start="303" selection-end="303" vertical-scroll-proportion="-9.73913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/admin/users_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="52" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="73" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/base/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="59" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/base_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/creating_users.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="66" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="144" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.652174">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/users/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="82" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -825,9 +671,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/users/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/base_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="50" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+        <state line="6" column="54" selection-start="115" selection-end="115" vertical-scroll-proportion="0.14659686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/creating_users.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="66" selection-start="830" selection-end="830" vertical-scroll-proportion="0.53752184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="144" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -839,9 +699,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="47" selection-start="151" selection-end="151" vertical-scroll-proportion="0.15272728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/users/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="36" selection-end="36" vertical-scroll-proportion="0.025454545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/users/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="82" selection-start="356" selection-end="356" vertical-scroll-proportion="0.37710437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tickets/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="43" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="40" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/deleting_users.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="52" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="45" selection-start="581" selection-end="581" vertical-scroll-proportion="0.14485165">
+        <state line="50" column="6" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.6936027">
           <folding />
         </state>
       </provider>
