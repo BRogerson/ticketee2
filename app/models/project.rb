@@ -2,9 +2,16 @@ class Project < ActiveRecord::Base
 
   has_many :tickets, :dependent => :destroy
 
-  validates :name, :presence => true
+  validates :name, :presence => true,  :uniqueness => true
+
+   has_many :permissions, :as => :thing
+
+    scope :readable_by, lambda { |user|
+    joins(:permissions).where(:permissions => { :action => "view", :user_id => user.id })
+    }
 
 #Schema information:
 #id : int : PK
 #name : String
 end
+
